@@ -38,33 +38,12 @@ Unlike standard sentiment analysis projects, this implementation is optimized fo
 
 | Metric | Score |
 | :--- | :--- |
-| **Accuracy** | 90.XX% *(Replace with your result)* |
-| **F1-Score (Macro)** | 0.8X *(Replace with your result)* |
-| **Precision** | 0.8X *(Replace with your result)* |
-| **Recall** | 0.8X *(Replace with your result)* |
+| **Accuracy** | 0.9912  |
+| **F1-Score (Macro)** | 0.9930  |
+| **Precision** | 0.9930 |
+| **Recall** | 0.9930  |
 
 ### Example Inference
 **Input:** *"that's how you use power of money, not billion dollars cars. Bless him"*
 **Predicted:** `Positive` (Class 2)
 
-## 💻 How to Run (TPU Environment)
-*Note: This code is specifically designed for a TPU environment (like Kaggle or Google Colab Pro).*
-
-1.  **Clone the Repository**
-    ```bash
-    git clone [https://github.com/yourusername/mrbeast-sentiment-analysis.git](https://github.com/yourusername/mrbeast-sentiment-analysis.git)
-    cd mrbeast-sentiment-analysis
-    ```
-
-2.  **Install Dependencies**
-    ```bash
-    pip install torch torchvision torchaudio --index-url [https://download.pytorch.org/whl/cpu](https://download.pytorch.org/whl/cpu)
-    pip install torch-xla transformers pandas scikit-learn
-    ```
-
-3.  **Run the Script**
-    ```bash
-    python sentiment_analysis_tpu.py
-    ```
-
-## 📂 File Structure
